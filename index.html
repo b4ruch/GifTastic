@@ -1,0 +1,77 @@
+<!-- 
+***********************************************
+*Author: Baruch Flores                        *
+*Homework 6: GifTastic                        *
+*UCB Extension - Full-Stack Bootcamp          *
+*June 2018                                    *
+***********************************************
+-->
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GifTastic!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="container-fluid mx-auto">
+        <div class="row header_section">
+            <div class="col">
+                <div class="Header text-center">
+                    <h1 class="h1_header"> Welcome to GiFStatic DeLUxe!</h1>
+                </div>
+            </div>
+
+        </div>
+        <div class="row search_section">
+            <div class="col">
+                <div class="form-group mt-4">
+                    <label class="add_brand" for="">Add your brand</label>
+                    <br>
+                    <input name="addBrandBtn" class="btn btn-primary mr-1 addBrandBtn" type="button" value="Add">
+                    <input type="text" name="addBrand" id="addBrand" class="form-control d-inline" placeholder="" aria-describedby="helpId">
+                    <small id="helpId" class="text-muted xtra_info d-block">Add your luxury brand to the list</small>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row icon_section">
+            <div class="col">
+                <div class="icons_wrapper"></div>
+            </div>
+        </div>
+        <div class="row gifs_section justify-content-between mt-5">
+            <div class="col">
+                <div class="gifs_wrapper">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

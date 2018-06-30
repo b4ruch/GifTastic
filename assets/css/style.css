@@ -1,0 +1,64 @@
+
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+body {
+    background-image: linear-gradient(to right,#7b4397,#dc2430);
+
+}
+.container, .container-fluid {
+    width: 90vw;
+}
+.header_section {
+    margin-top: 8vh;
+}
+
+.h1_header {
+    font-family: Righteous, serif;
+    display: inline-block;
+    color: white;
+    font-family: 'Righteous', serif;
+    font-size: 4em; 
+    text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
+    text-align: center;
+  
+}
+.add_brand {
+    font-family: Righteous, serif;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    color: yellow;
+    margin-left: 4rem;
+}
+#addBrand{
+    width: 90%;
+}
+
+.xtra_info{
+    color: white!important;
+    font-style: oblique;
+    margin-left: 4rem;
+}
+
+.icons_wrapper {
+    margin-top: 3rem;
+    border: goldenrod;
+    border-width: .2rem;
+    border-style: dashed;
+
+}
+
+
+.ratingInfo {
+    font-style: italic;
+    font-weight: bold;
+    font-size: .8rem;
+    text-transform: capitalize;
+
+}
+
+.rating {
+    text-transform: uppercase;
+}
+
